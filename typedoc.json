@@ -1,0 +1,7 @@
+{
+  "entryPoints": [
+    "./src/ej-guion/funkoapp.ts",
+    "./src/ej-clase/app2.ts", 
+  ],
+  "out": "./docs" 
+}
