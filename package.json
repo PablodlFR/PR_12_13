@@ -6,7 +6,7 @@
   "scripts": {
     "test": "nyc mocha",
     "coverage": "nyc npm test && nyc report --reporter=lcov",
-    "start": "tsc-watch --onSuccess \"node dist/pr-12/funkoapp.js\"",
+    "start": "tsc-watch --onSuccess \"node dist/pr-13/app.js\"",
     "doc": "typedoc"
   },
   "keywords": [],
@@ -18,6 +18,7 @@
     "@types/mocha": "^10.0.1",
     "@types/prompt-sync": "^4.2.0",
     "@types/request": "^2.48.8",
+    "@types/validator": "^13.7.17",
     "@types/yargs": "^17.0.24",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
@@ -38,9 +39,11 @@
     "inquirer": "^6.5.2",
     "lowdb": "^1.0.0",
     "mongodb": "^5.3.0",
+    "mongoose": "^7.1.0",
     "parseboolean": "^1.0.0",
     "prompt-sync": "^4.2.0",
     "request": "^2.88.2",
+    "validator": "^13.9.0",
     "yargs": "^17.7.1"
   }
 }
